@@ -3,12 +3,42 @@ body {
 }
 
 hr {
-  background-color: #041562;
+  background-color: #11468F;
   border-style: none;
-  height: 2px;
+  height: 2.5px;
   width: auto;
 }
 
 img {
-  height: 250px
+  height: 250px;
+}
+
+h1 {
+  color: #041562;
+}
+
+h3 {
+  color: #041562;
+}
+
+/****** Class Selectors - classes can be applied across multiple elements  **********/
+.centeredheading{
+  text-align: center;
+}
+
+.blockcenter {
+  padding-left: 100px;
+}
+
+.embeddedvideo:hover{
+  height:400px;
+  width:700px
+}
+.linkedimage:hover {height: 400px;
+}
+
+
+/****** ID Selectors - can ony be applied to a single element **********/
+#row2heading {
+  color:#041562;
 }
